@@ -1,0 +1,14 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: red;
+}
+
+.imagen_header {
+    background-image: url(../images/imagen_fondo.jpg);
+    background-position: cover;
+    position: fixed;
+}
