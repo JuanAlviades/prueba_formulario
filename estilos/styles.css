@@ -1,3 +1,5 @@
+/* Estilos sin clase */
+
 body {
     margin: 0;
     padding: 0;
@@ -29,6 +31,16 @@ button:hover {
     color: white;
 }
 
+
+/* Clases */
+
+.titulo-header {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+
 .nombre {
     width: 20px;
 }
@@ -46,7 +58,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     width: 99%;
-    height: 300px;
+    height: 550px;
 }
 
 .contenido-izquierda {
@@ -73,9 +85,11 @@ button:hover {
     display: flex;
 }
 
-p {
+.texto {
     margin-top: 30px;
     display: flex;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .imagenTitulo img {
@@ -86,8 +100,53 @@ p {
 .imagen {
     width: 85px;
     border-radius: 14px;
+    margin-right: 20px;
+    transition: transform .1s;
+}
+
+.imagen:hover {
+    transform: scale(1.2);
 }
 
 .email {
     margin-bottom: 10px;
 }
+
+.wave {
+    position: relative;
+    bottom: -7px;
+    width: 100%;
+}
+
+footer {
+    background-color: #fc5433;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img {
+    width: 200px;
+    align-items: center;
+    margin: 30px;
+    border-radius: 100px;
+}
+
+.footer_texto {
+    margin-left: 20px;
+    text-align: right;
+    width: 50%;
+    color: white;
+}
+
+.sub-footer {
+    background-color: #900c44;
+    padding: 0.2rem;
+}
+
+.redes-sociales img {
+    width: 20px;
+    margin-left: 30px;
+}
+
+.redes-sociales img:hover {}
