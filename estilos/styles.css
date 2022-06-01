@@ -3,15 +3,34 @@ body {
     padding: 0;
 }
 
-img {
-    width: 80px;
-    border-radius: 100px;
-}
-
 ul,
 ol,
 li {
     list-style: none;
+    margin: 10px 0 20px 0;
+}
+
+input {
+    width: 300px;
+    padding: 0.4em;
+    border: none;
+}
+
+button {
+    margin-left: 100px;
+    padding: 10px 40px;
+    cursor: pointer;
+    background-color: darkgrey;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #940c3c;
+    color: white;
+}
+
+.nombre {
+    width: 20px;
 }
 
 .header {
@@ -26,7 +45,7 @@ li {
     margin: 20px auto 20px 10px;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 99%;
     height: 300px;
 }
 
@@ -37,8 +56,17 @@ li {
 }
 
 .formulario {
-    width: 30%;
-    padding-right: 0;
+    width: 50%;
+    margin: 0 40px;
+    background-color: #ff9c24;
+    border-radius: 10px;
+    height: 630px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .articulo {
@@ -48,4 +76,18 @@ li {
 p {
     margin-top: 30px;
     display: flex;
+}
+
+.imagenTitulo img {
+    width: 50px;
+    height: 50px;
+}
+
+.imagen {
+    width: 85px;
+    border-radius: 14px;
+}
+
+.email {
+    margin-bottom: 10px;
 }

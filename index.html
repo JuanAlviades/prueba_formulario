@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condenseddisplay=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilos/styles.css">
@@ -11,7 +12,7 @@
 </head>
 <header class="header">
     <div class="titulo-header">
-
+        <h1>Título</h1>
     </div>
 </header>
 
@@ -22,36 +23,52 @@
                 <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi amet fugiat enim maxime consequuntur explicabo sequi </p>
             </div>
             <div class="articulo">
-                <p class="texto"><img src="https://images.pexels.com/photos/11452460/pexels-photo-11452460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta, eligendi cupiditate unde</p>
+                <p class="texto">
+                    <img class="imagen" src="https://images.pexels.com/photos/11452460/pexels-photo-11452460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta, eligendi
+                    cupiditate unde</p>
             </div>
             <div class="izquierda">
-                <p class="texto"><img src="https://images.pexels.com/photos/11452460/pexels-photo-11452460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta, eligendi cupiditate unde</p>
+                <p class="texto">
+                    <img class="imagen" src="https://images.pexels.com/photos/11452460/pexels-photo-11452460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta, eligendi
+                    cupiditate unde</p>
             </div>
             <div class="izquierda">
-                <p class="texto"><img src="https://images.pexels.com/photos/11452460/pexels-photo-11452460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta, eligendi cupiditate unde</p>
+                <img class="imagen" src="https://images.pexels.com/photos/11452460/pexels-photo-11452460.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur soluta, eligendi
+                cupiditate unde</p>
             </div>
         </div>
         <div class="formulario">
-            <form class="form" action="">
-                <ul>
-                    <li>
-                        <ol>
-                            <h3>Formulario</h3>
-                            <li>Nombre: </li>
-                            <input type="text" required>
-                            <li>Apellido: </li>
-                            <input type="text" required>
-                            <li>Teléfono: </li>
-                            <input type="text" required>
-                            <li>Correo: </li>
-                            <input type="email" required>
-                        </ol>
-                        <input type="submit" value="Enviar">
-                    </li>
-                </ul>
-            </form>
+            <h2>Formulario</h2>
+            <div class="imagenTitulo">
+                <img src="https://cdn-icons-png.flaticon.com/512/3447/3447545.png" alt="Formulario">
+            </div>
+            <div class="formulario">
+                <div class="casillas">
+
+                    <form class="form" action="">
+
+                        <li></li>
+                        <label for="nombre">Nombre</label>
+                        <li></li>
+                        <input type="text" name="nombre" required>
+                        <li> </li>
+                        <label for="apellido">Apellido </label>
+                        <li></li>
+                        <input type="text" name="apellido" required>
+                        <li> </li>
+                        <label for="telefono">Teléfono </label>
+                        <li></li>
+                        <input type="text" name="Teléfono" required>
+                        <li></li>
+                        <label for="email">E-mail </label>
+                        <li></li>
+                        <input class="email" type="text" name="email" required placeholder="(Obligatorio)">
+                        <li></li>
+                        <button type="submit" value="Enviar">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
 </body>
 
 </html>
